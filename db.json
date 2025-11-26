@@ -2467,7 +2467,7 @@
     },
     "correlationId": null
   },
-   "billpayment_getlookupdatabyid": {
+   "bill_payment_getlookupdatabyid": {
     "data": {
       "statusCode": 1000,
       "message": "List of Masters for Tenant",
@@ -2528,7 +2528,7 @@
       "correlationId": null
     }
   },
-  "billpayment_getlistconfigbyid": {
+  "bill_payment_getlistconfigbyid": {
     "result": {
       "statusCode": 1000,
       "message": "Fetched successfully",
@@ -2859,7 +2859,7 @@
       "correlationId": ""
     }
   },
-  "billpayment_getdatasetfieldinfobyid": {
+  "bill_payment_getdatasetfieldinfobyid": {
     "result": {
       "statusCode": 1000,
       "message": "Fetched successfully",
@@ -2991,7 +2991,7 @@
       "correlationId": ""
     }
   },
-  "billpayment_listdata": {
+  "bill_payment_listdata": {
     "statusCode": 1000,
     "message": "Fetched successfully",
     "data": {

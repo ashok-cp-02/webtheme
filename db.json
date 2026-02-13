@@ -11089,6 +11089,23 @@
                   "islookup": false
                 },
                 {
+                  "id": "Cust131",
+                  "name": "New Users",
+                  "lablekey": "lbl-customer-lastactivity",
+                  "columnwidth": 250,
+                  "seqno": 13,
+                  "masterid": "",
+                  "controltype": "multivaluegridcell",
+                  "attrtype": "text",
+                  "api_name": "NewUsers",
+                  "visible": true,
+                  "displayapiname": "NewUsers",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": true,
+                  "islookup": false
+                },
+                {
                   "id": "Cust14",
                   "name": "Is Active",
                   "lablekey": "lbl-customer-lastactivity",
@@ -11327,6 +11344,15 @@
             "columnwidth": 150
           },
           {
+            "id": "Cust131",
+            "seqno": 140,
+            "masterid": "0",
+            "controltype": "multivaluegridcell",
+            "attrtype": "text",
+            "api_name": "NewUsers",
+            "columnwidth": 250
+          },
+          {
             "id": "Cust14",
             "seqno": 140,
             "masterid": "0",
@@ -11355,8 +11381,8 @@
           "CustomerType": "Enterprise",
           "Status": "Active",
           "AccountBalance": "$15,000",
-          "CreatedDate": "01/01/2024",
-          "LastActivity": "07/06/2025 05:30 AM",
+          "CreatedDate": "2024-12-15T12:19:56",
+          "LastActivity": "2024-12-15T12:19:56",
           "Tag": "[{\"name\":\"ABC\",\"colorcode\":1,\"tagid\":\"A11B\"},{\"name\":\"PRM\",\"colorcode\":11,\"tagid\":\"A11B\"},{\"name\":\"NST\",\"colorcode\":12,\"tagid\":\"A11B\"},{\"name\":\"Priority\",\"colorcode\":8,\"tagid\":\"EX01\"},{\"name\":\"Loyal\",\"colorcode\":9,\"tagid\":\"EX02\"},{\"name\":\"HighValue\",\"colorcode\":10,\"tagid\":\"EX03\"},{\"name\":\"AtRisk\",\"colorcode\":11,\"tagid\":\"EX04\"}]",
           "PaymentStatus": "Paid",
           "AssignedUsers": "5 Users",
@@ -11364,7 +11390,8 @@
             "status": "true",
             "disabled": false,
             "tooltip": "Active"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Isabella Johnson\", \"value\": \"2060\"}, {\"label\": \"Michael Martinez\", \"value\": \"2061\"}, {\"label\": \"Charlotte Johnson\", \"value\": \"2062\"},{\"label\": \"Emma Hernandez\", \"value\": \"2070\"}, {\"label\": \"Benjamin Garcia\", \"value\": \"2071\"}, {\"label\": \"Mia Anderson\", \"value\": \"2072\"},{\"label\": \"Sophia Hernandez\", \"value\": \"2080\"}, {\"label\": \"Amelia Miller\", \"value\": \"2081\"}, {\"label\": \"Amelia Rodriguez\", \"value\": \"2082\"}, {\"label\": \"Elijah Williams\", \"value\": \"2083\"}, {\"label\": \"Mason Lopez\", \"value\": \"2084\"},{\"label\": \"Lucas Smith\", \"value\": \"2010\"}, {\"label\": \"Ethan Jones\", \"value\": \"2011\"}, {\"label\": \"James Jones\", \"value\": \"2012\"}, {\"label\": \"John Brown\", \"value\": \"2013\"}, {\"label\": \"Charlotte Williams\", \"value\": \"2014\"}]"
         },
         {
           "id": 2,
@@ -11385,7 +11412,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Martinez\", \"value\": \"2020\"}, {\"label\": \"Mason Smith\", \"value\": \"2021\"}, {\"label\": \"Michael Hernandez\", \"value\": \"2022\"}]"
         },
         {
           "id": 3,
@@ -11406,7 +11434,8 @@
             "status": "true",
             "disabled": true,
             "tooltip": "Active Disabled"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Evelyn Jones\", \"value\": \"2030\"}, {\"label\": \"Noah Jones\", \"value\": \"2031\"}, {\"label\": \"Lucas Miller\", \"value\": \"2032\"}]"
         },
         {
           "id": 4,
@@ -11427,7 +11456,8 @@
             "status": "false",
             "disabled": true,
             "tooltip": "InActive Disabled"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Garcia\", \"value\": \"2040\"}, {\"label\": \"Liam Williams\", \"value\": \"2041\"}, {\"label\": \"Charlotte Rodriguez\", \"value\": \"2042\"}]"
         },
         {
           "id": 5,
@@ -11448,7 +11478,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Gonzalez\", \"value\": \"2050\"}, {\"label\": \"Sophia Martinez\", \"value\": \"2051\"}, {\"label\": \"Olivia Miller\", \"value\": \"2052\"}, {\"label\": \"Isabella Lopez\", \"value\": \"2053\"}, {\"label\": \"Lucas Brown\", \"value\": \"2054\"}]"
         },
         {
           "id": 6,
@@ -11469,7 +11500,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Isabella Johnson\", \"value\": \"2060\"}, {\"label\": \"Michael Martinez\", \"value\": \"2061\"}, {\"label\": \"Charlotte Johnson\", \"value\": \"2062\"},{\"label\": \"Emma Hernandez\", \"value\": \"2070\"}, {\"label\": \"Benjamin Garcia\", \"value\": \"2071\"}, {\"label\": \"Mia Anderson\", \"value\": \"2072\"},{\"label\": \"Sophia Hernandez\", \"value\": \"2080\"}, {\"label\": \"Amelia Miller\", \"value\": \"2081\"}, {\"label\": \"Amelia Rodriguez\", \"value\": \"2082\"}, {\"label\": \"Elijah Williams\", \"value\": \"2083\"}, {\"label\": \"Mason Lopez\", \"value\": \"2084\"}]"
         },
         {
           "id": 7,
@@ -11490,7 +11522,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Emma Hernandez\", \"value\": \"2070\"}, {\"label\": \"Benjamin Garcia\", \"value\": \"2071\"}, {\"label\": \"Mia Anderson\", \"value\": \"2072\"}]"
         },
         {
           "id": 8,
@@ -11511,7 +11544,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Sophia Hernandez\", \"value\": \"2080\"}, {\"label\": \"Amelia Miller\", \"value\": \"2081\"}, {\"label\": \"Amelia Rodriguez\", \"value\": \"2082\"}, {\"label\": \"Elijah Williams\", \"value\": \"2083\"}, {\"label\": \"Mason Lopez\", \"value\": \"2084\"}]"
         },
         {
           "id": 9,
@@ -11532,7 +11566,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mia Gonzalez\", \"value\": \"2090\"}, {\"label\": \"Benjamin Gonzalez\", \"value\": \"2091\"}, {\"label\": \"Olivia Williams\", \"value\": \"2092\"}]"
         },
         {
           "id": 10,
@@ -11553,7 +11588,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Elijah Gonzalez\", \"value\": \"2100\"}, {\"label\": \"Olivia Lopez\", \"value\": \"2101\"}, {\"label\": \"Evelyn Jones\", \"value\": \"2102\"}, {\"label\": \"Noah Jones\", \"value\": \"2103\"}, {\"label\": \"Mia Hernandez\", \"value\": \"2104\"}]"
         },
         {
           "id": 11,
@@ -11574,7 +11610,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Hernandez\", \"value\": \"2110\"}, {\"label\": \"Ava Brown\", \"value\": \"2111\"}, {\"label\": \"Isabella Garcia\", \"value\": \"2112\"}, {\"label\": \"Mason Smith\", \"value\": \"2113\"}, {\"label\": \"Sophia Hernandez\", \"value\": \"2114\"}]"
         },
         {
           "id": 12,
@@ -11595,7 +11632,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Elijah Brown\", \"value\": \"2120\"}, {\"label\": \"Harper Gonzalez\", \"value\": \"2121\"}, {\"label\": \"James Williams\", \"value\": \"2122\"}, {\"label\": \"Mason Rodriguez\", \"value\": \"2123\"}]"
         },
         {
           "id": 13,
@@ -11616,7 +11654,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ava Miller\", \"value\": \"2130\"}, {\"label\": \"Evelyn Wilson\", \"value\": \"2131\"}, {\"label\": \"Evelyn Martinez\", \"value\": \"2132\"}, {\"label\": \"James Rodriguez\", \"value\": \"2133\"}, {\"label\": \"Michael Hernandez\", \"value\": \"2134\"}]"
         },
         {
           "id": 14,
@@ -11637,7 +11676,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ethan Smith\", \"value\": \"2140\"}, {\"label\": \"Charlotte Wilson\", \"value\": \"2141\"}, {\"label\": \"Harper Anderson\", \"value\": \"2142\"}]"
         },
         {
           "id": 15,
@@ -11658,7 +11698,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Liam Johnson\", \"value\": \"2150\"}, {\"label\": \"Noah Rodriguez\", \"value\": \"2151\"}, {\"label\": \"Isabella Williams\", \"value\": \"2152\"}, {\"label\": \"Benjamin Martinez\", \"value\": \"2153\"}, {\"label\": \"Ethan Anderson\", \"value\": \"2154\"}]"
         },
         {
           "id": 16,
@@ -11679,7 +11720,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Liam Hernandez\", \"value\": \"2160\"}, {\"label\": \"Harper Williams\", \"value\": \"2161\"}, {\"label\": \"Amelia Brown\", \"value\": \"2162\"}, {\"label\": \"Mason Garcia\", \"value\": \"2163\"}, {\"label\": \"Ava Miller\", \"value\": \"2164\"}]"
         },
         {
           "id": 17,
@@ -11700,7 +11742,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Martinez\", \"value\": \"2170\"}, {\"label\": \"John Miller\", \"value\": \"2171\"}, {\"label\": \"Evelyn Garcia\", \"value\": \"2172\"}]"
         },
         {
           "id": 18,
@@ -11721,7 +11764,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Sophia Gonzalez\", \"value\": \"2180\"}, {\"label\": \"Olivia Davis\", \"value\": \"2181\"}, {\"label\": \"Michael Williams\", \"value\": \"2182\"}, {\"label\": \"Isabella Wilson\", \"value\": \"2183\"}]"
         },
         {
           "id": 19,
@@ -11742,7 +11786,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Isabella Garcia\", \"value\": \"2190\"}, {\"label\": \"Mason Rodriguez\", \"value\": \"2191\"}, {\"label\": \"Mason Jones\", \"value\": \"2192\"}]"
         },
         {
           "id": 20,
@@ -11763,7 +11808,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Rodriguez\", \"value\": \"2200\"}, {\"label\": \"Ethan Hernandez\", \"value\": \"2201\"}, {\"label\": \"Ethan Jones\", \"value\": \"2202\"}]"
         },
         {
           "id": 21,
@@ -11784,7 +11830,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Liam Gonzalez\", \"value\": \"2210\"}, {\"label\": \"Noah Smith\", \"value\": \"2211\"}, {\"label\": \"Michael Anderson\", \"value\": \"2212\"}, {\"label\": \"Mason Anderson\", \"value\": \"2213\"}, {\"label\": \"Mia Williams\", \"value\": \"2214\"}]"
         },
         {
           "id": 22,
@@ -11797,7 +11844,7 @@
           "Status": "Active",
           "AccountBalance": "$3,800",
           "CreatedDate": "07/12/2024",
-          "LastActivity": "12/01/2026 08:20 AM",
+          "LastActivity": "2024-06-10T11:33:27",
           "Tag": "[{\"name\":\"BES\",\"colorcode\":7,\"tagid\":\"A11B\"},{\"name\":\"NWC\",\"colorcode\":7,\"tagid\":\"A11B\"},{\"name\":\"Priority\",\"colorcode\":8,\"tagid\":\"EX01\"},{\"name\":\"Loyal\",\"colorcode\":9,\"tagid\":\"EX02\"},{\"name\":\"HighValue\",\"colorcode\":10,\"tagid\":\"EX03\"},{\"name\":\"AtRisk\",\"colorcode\":11,\"tagid\":\"EX04\"},{\"name\":\"New\",\"colorcode\":12,\"tagid\":\"EX05\"}]",
           "PaymentStatus": "Partially Paid",
           "AssignedUsers": "5 Users",
@@ -11805,7 +11852,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Sophia Martinez\", \"value\": \"2220\"}, {\"label\": \"Amelia Miller\", \"value\": \"2221\"}, {\"label\": \"Isabella Williams\", \"value\": \"2222\"}, {\"label\": \"Emma Martinez\", \"value\": \"2223\"}]"
         },
         {
           "id": 23,
@@ -11826,7 +11874,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Sophia Miller\", \"value\": \"2230\"}, {\"label\": \"Elijah Anderson\", \"value\": \"2231\"}, {\"label\": \"Isabella Miller\", \"value\": \"2232\"}, {\"label\": \"Olivia Wilson\", \"value\": \"2233\"}]"
         },
         {
           "id": 24,
@@ -11847,7 +11896,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Sophia Jones\", \"value\": \"2240\"}, {\"label\": \"Mason Martinez\", \"value\": \"2241\"}, {\"label\": \"Elijah Lopez\", \"value\": \"2242\"}]"
         },
         {
           "id": 25,
@@ -11868,7 +11918,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Garcia\", \"value\": \"2250\"}, {\"label\": \"Michael Lopez\", \"value\": \"2251\"}, {\"label\": \"James Johnson\", \"value\": \"2252\"}]"
         },
         {
           "id": 26,
@@ -11889,7 +11940,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Lopez\", \"value\": \"2260\"}, {\"label\": \"Isabella Johnson\", \"value\": \"2261\"}, {\"label\": \"John Hernandez\", \"value\": \"2262\"}, {\"label\": \"Olivia Brown\", \"value\": \"2263\"}]"
         },
         {
           "id": 27,
@@ -11910,7 +11962,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Olivia Anderson\", \"value\": \"2270\"}, {\"label\": \"Lucas Anderson\", \"value\": \"2271\"}, {\"label\": \"Ava Miller\", \"value\": \"2272\"}]"
         },
         {
           "id": 28,
@@ -11931,7 +11984,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Noah Jones\", \"value\": \"2280\"}, {\"label\": \"Noah Gonzalez\", \"value\": \"2281\"}, {\"label\": \"Emma Smith\", \"value\": \"2282\"}]"
         },
         {
           "id": 29,
@@ -11952,7 +12006,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Emma Gonzalez\", \"value\": \"2290\"}, {\"label\": \"Sophia Lopez\", \"value\": \"2291\"}, {\"label\": \"Lucas Johnson\", \"value\": \"2292\"}, {\"label\": \"Emma Davis\", \"value\": \"2293\"}, {\"label\": \"John Wilson\", \"value\": \"2294\"}]"
         },
         {
           "id": 30,
@@ -11973,7 +12028,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Benjamin Davis\", \"value\": \"2300\"}, {\"label\": \"Ava Williams\", \"value\": \"2301\"}, {\"label\": \"Noah Davis\", \"value\": \"2302\"}, {\"label\": \"Sophia Wilson\", \"value\": \"2303\"}]"
         },
         {
           "id": 31,
@@ -11994,7 +12050,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"James Davis\", \"value\": \"2310\"}, {\"label\": \"Elijah Johnson\", \"value\": \"2311\"}, {\"label\": \"Mason Gonzalez\", \"value\": \"2312\"}, {\"label\": \"Amelia Hernandez\", \"value\": \"2313\"}, {\"label\": \"James Johnson\", \"value\": \"2314\"}]"
         },
         {
           "id": 32,
@@ -12015,7 +12072,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ethan Smith\", \"value\": \"2320\"}, {\"label\": \"Elijah Anderson\", \"value\": \"2321\"}, {\"label\": \"Amelia Garcia\", \"value\": \"2322\"}, {\"label\": \"Mason Hernandez\", \"value\": \"2323\"}]"
         },
         {
           "id": 33,
@@ -12036,7 +12094,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Liam Smith\", \"value\": \"2330\"}, {\"label\": \"Emma Smith\", \"value\": \"2331\"}, {\"label\": \"Lucas Wilson\", \"value\": \"2332\"}, {\"label\": \"Charlotte Garcia\", \"value\": \"2333\"}, {\"label\": \"John Jones\", \"value\": \"2334\"}]"
         },
         {
           "id": 34,
@@ -12057,7 +12116,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Martinez\", \"value\": \"2340\"}, {\"label\": \"Mason Brown\", \"value\": \"2341\"}, {\"label\": \"Ethan Hernandez\", \"value\": \"2342\"}, {\"label\": \"Benjamin Rodriguez\", \"value\": \"2343\"}]"
         },
         {
           "id": 35,
@@ -12078,7 +12138,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mason Williams\", \"value\": \"2350\"}, {\"label\": \"Isabella Anderson\", \"value\": \"2351\"}, {\"label\": \"Amelia Garcia\", \"value\": \"2352\"}]"
         },
         {
           "id": 36,
@@ -12099,7 +12160,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Brown\", \"value\": \"2360\"}, {\"label\": \"Elijah Williams\", \"value\": \"2361\"}, {\"label\": \"Noah Garcia\", \"value\": \"2362\"}, {\"label\": \"Emma Anderson\", \"value\": \"2363\"}]"
         },
         {
           "id": 37,
@@ -12120,7 +12182,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ava Smith\", \"value\": \"2370\"}, {\"label\": \"Emma Anderson\", \"value\": \"2371\"}, {\"label\": \"Amelia Williams\", \"value\": \"2372\"}]"
         },
         {
           "id": 38,
@@ -12141,7 +12204,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Garcia\", \"value\": \"2380\"}, {\"label\": \"Isabella Hernandez\", \"value\": \"2381\"}, {\"label\": \"Benjamin Miller\", \"value\": \"2382\"}, {\"label\": \"Mason Miller\", \"value\": \"2383\"}, {\"label\": \"Charlotte Davis\", \"value\": \"2384\"}]"
         },
         {
           "id": 39,
@@ -12162,7 +12226,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Charlotte Garcia\", \"value\": \"2390\"}, {\"label\": \"Isabella Anderson\", \"value\": \"2391\"}, {\"label\": \"Sophia Rodriguez\", \"value\": \"2392\"}]"
         },
         {
           "id": 40,
@@ -12183,7 +12248,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Martinez\", \"value\": \"2400\"}, {\"label\": \"Charlotte Anderson\", \"value\": \"2401\"}, {\"label\": \"Benjamin Hernandez\", \"value\": \"2402\"}]"
         },
         {
           "id": 41,
@@ -12204,7 +12270,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Jones\", \"value\": \"2410\"}, {\"label\": \"Isabella Davis\", \"value\": \"2411\"}, {\"label\": \"Olivia Williams\", \"value\": \"2412\"}, {\"label\": \"John Martinez\", \"value\": \"2413\"}, {\"label\": \"Mason Rodriguez\", \"value\": \"2414\"}]"
         },
         {
           "id": 42,
@@ -12225,7 +12292,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Charlotte Jones\", \"value\": \"2420\"}, {\"label\": \"Harper Jones\", \"value\": \"2421\"}, {\"label\": \"Lucas Gonzalez\", \"value\": \"2422\"}]"
         },
         {
           "id": 43,
@@ -12246,7 +12314,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Charlotte Hernandez\", \"value\": \"2430\"}, {\"label\": \"Ava Lopez\", \"value\": \"2431\"}, {\"label\": \"Mason Garcia\", \"value\": \"2432\"}]"
         },
         {
           "id": 44,
@@ -12267,7 +12336,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ava Rodriguez\", \"value\": \"2440\"}, {\"label\": \"Harper Rodriguez\", \"value\": \"2441\"}, {\"label\": \"Elijah Miller\", \"value\": \"2442\"}, {\"label\": \"Emma Miller\", \"value\": \"2443\"}, {\"label\": \"Isabella Smith\", \"value\": \"2444\"}]"
         },
         {
           "id": 45,
@@ -12288,7 +12358,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mia Jones\", \"value\": \"2450\"}, {\"label\": \"Liam Hernandez\", \"value\": \"2451\"}, {\"label\": \"Isabella Brown\", \"value\": \"2452\"}, {\"label\": \"Sophia Smith\", \"value\": \"2453\"}, {\"label\": \"John Wilson\", \"value\": \"2454\"}]"
         },
         {
           "id": 46,
@@ -12309,7 +12380,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Rodriguez\", \"value\": \"2460\"}, {\"label\": \"Charlotte Hernandez\", \"value\": \"2461\"}, {\"label\": \"Amelia Lopez\", \"value\": \"2462\"}]"
         },
         {
           "id": 47,
@@ -12330,7 +12402,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Michael Williams\", \"value\": \"2470\"}, {\"label\": \"Olivia Rodriguez\", \"value\": \"2471\"}, {\"label\": \"Liam Wilson\", \"value\": \"2472\"}, {\"label\": \"Emma Wilson\", \"value\": \"2473\"}]"
         },
         {
           "id": 48,
@@ -12351,7 +12424,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ava Martinez\", \"value\": \"2480\"}, {\"label\": \"John Gonzalez\", \"value\": \"2481\"}, {\"label\": \"Olivia Davis\", \"value\": \"2482\"}, {\"label\": \"Harper Jones\", \"value\": \"2483\"}, {\"label\": \"Michael Hernandez\", \"value\": \"2484\"}]"
         },
         {
           "id": 49,
@@ -12372,7 +12446,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Olivia Garcia\", \"value\": \"2490\"}, {\"label\": \"Lucas Martinez\", \"value\": \"2491\"}, {\"label\": \"Olivia Brown\", \"value\": \"2492\"}, {\"label\": \"Olivia Rodriguez\", \"value\": \"2493\"}, {\"label\": \"Liam Wilson\", \"value\": \"2494\"}]"
         },
         {
           "id": 50,
@@ -12393,7 +12468,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Noah Brown\", \"value\": \"2500\"}, {\"label\": \"Harper Martinez\", \"value\": \"2501\"}, {\"label\": \"Michael Martinez\", \"value\": \"2502\"}, {\"label\": \"Isabella Wilson\", \"value\": \"2503\"}, {\"label\": \"Ava Gonzalez\", \"value\": \"2504\"}]"
         },
         {
           "id": 51,
@@ -12414,7 +12490,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Benjamin Gonzalez\", \"value\": \"2510\"}, {\"label\": \"Charlotte Davis\", \"value\": \"2511\"}, {\"label\": \"Harper Lopez\", \"value\": \"2512\"}]"
         },
         {
           "id": 52,
@@ -12435,7 +12512,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ethan Miller\", \"value\": \"2520\"}, {\"label\": \"Lucas Miller\", \"value\": \"2521\"}, {\"label\": \"Ethan Miller\", \"value\": \"2522\"}]"
         },
         {
           "id": 53,
@@ -12456,7 +12534,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mia Johnson\", \"value\": \"2530\"}, {\"label\": \"Evelyn Jones\", \"value\": \"2531\"}, {\"label\": \"Isabella Rodriguez\", \"value\": \"2532\"}]"
         },
         {
           "id": 54,
@@ -12477,7 +12556,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Elijah Johnson\", \"value\": \"2540\"}, {\"label\": \"John Miller\", \"value\": \"2541\"}, {\"label\": \"Mason Wilson\", \"value\": \"2542\"}, {\"label\": \"Mia Garcia\", \"value\": \"2543\"}, {\"label\": \"Isabella Rodriguez\", \"value\": \"2544\"}]"
         },
         {
           "id": 55,
@@ -12498,7 +12578,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Rodriguez\", \"value\": \"2550\"}, {\"label\": \"Mia Rodriguez\", \"value\": \"2551\"}, {\"label\": \"James Brown\", \"value\": \"2552\"}]"
         },
         {
           "id": 56,
@@ -12519,7 +12600,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mason Jones\", \"value\": \"2560\"}, {\"label\": \"Mia Davis\", \"value\": \"2561\"}, {\"label\": \"Emma Rodriguez\", \"value\": \"2562\"}]"
         },
         {
           "id": 57,
@@ -12540,7 +12622,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ethan Rodriguez\", \"value\": \"2570\"}, {\"label\": \"James Rodriguez\", \"value\": \"2571\"}, {\"label\": \"Isabella Rodriguez\", \"value\": \"2572\"}]"
         },
         {
           "id": 58,
@@ -12561,7 +12644,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mia Johnson\", \"value\": \"2580\"}, {\"label\": \"Michael Wilson\", \"value\": \"2581\"}, {\"label\": \"Benjamin Johnson\", \"value\": \"2582\"}, {\"label\": \"Sophia Davis\", \"value\": \"2583\"}, {\"label\": \"Ava Rodriguez\", \"value\": \"2584\"}]"
         },
         {
           "id": 59,
@@ -12582,7 +12666,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Garcia\", \"value\": \"2590\"}, {\"label\": \"Noah Martinez\", \"value\": \"2591\"}, {\"label\": \"Ethan Williams\", \"value\": \"2592\"}]"
         },
         {
           "id": 60,
@@ -12603,7 +12688,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ava Wilson\", \"value\": \"2600\"}, {\"label\": \"Liam Gonzalez\", \"value\": \"2601\"}, {\"label\": \"John Martinez\", \"value\": \"2602\"}]"
         },
         {
           "id": 61,
@@ -12624,7 +12710,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Liam Jones\", \"value\": \"2610\"}, {\"label\": \"Isabella Smith\", \"value\": \"2611\"}, {\"label\": \"Ava Davis\", \"value\": \"2612\"}, {\"label\": \"Mia Lopez\", \"value\": \"2613\"}, {\"label\": \"Amelia Gonzalez\", \"value\": \"2614\"}]"
         },
         {
           "id": 62,
@@ -12645,7 +12732,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mia Brown\", \"value\": \"2620\"}, {\"label\": \"Olivia Garcia\", \"value\": \"2621\"}, {\"label\": \"Noah Davis\", \"value\": \"2622\"}, {\"label\": \"Michael Anderson\", \"value\": \"2623\"}]"
         },
         {
           "id": 63,
@@ -12666,7 +12754,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Evelyn Johnson\", \"value\": \"2630\"}, {\"label\": \"Isabella Gonzalez\", \"value\": \"2631\"}, {\"label\": \"Olivia Smith\", \"value\": \"2632\"}, {\"label\": \"Benjamin Williams\", \"value\": \"2633\"}, {\"label\": \"Isabella Miller\", \"value\": \"2634\"}]"
         },
         {
           "id": 64,
@@ -12687,7 +12776,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Benjamin Miller\", \"value\": \"2640\"}, {\"label\": \"Sophia Wilson\", \"value\": \"2641\"}, {\"label\": \"Charlotte Jones\", \"value\": \"2642\"}]"
         },
         {
           "id": 65,
@@ -12708,7 +12798,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Elijah Davis\", \"value\": \"2650\"}, {\"label\": \"Amelia Anderson\", \"value\": \"2651\"}, {\"label\": \"Noah Johnson\", \"value\": \"2652\"}, {\"label\": \"Harper Rodriguez\", \"value\": \"2653\"}, {\"label\": \"Noah Davis\", \"value\": \"2654\"}]"
         },
         {
           "id": 66,
@@ -12729,7 +12820,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Gonzalez\", \"value\": \"2660\"}, {\"label\": \"Amelia Johnson\", \"value\": \"2661\"}, {\"label\": \"Emma Johnson\", \"value\": \"2662\"}, {\"label\": \"Charlotte Garcia\", \"value\": \"2663\"}, {\"label\": \"Emma Wilson\", \"value\": \"2664\"}]"
         },
         {
           "id": 67,
@@ -12750,7 +12842,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"James Anderson\", \"value\": \"2670\"}, {\"label\": \"Sophia Gonzalez\", \"value\": \"2671\"}, {\"label\": \"Ava Lopez\", \"value\": \"2672\"}, {\"label\": \"Evelyn Miller\", \"value\": \"2673\"}]"
         },
         {
           "id": 68,
@@ -12771,7 +12864,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Lucas Lopez\", \"value\": \"2680\"}, {\"label\": \"Olivia Smith\", \"value\": \"2681\"}, {\"label\": \"Sophia Gonzalez\", \"value\": \"2682\"}, {\"label\": \"Mason Smith\", \"value\": \"2683\"}, {\"label\": \"Benjamin Brown\", \"value\": \"2684\"}]"
         },
         {
           "id": 69,
@@ -12792,7 +12886,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Emma Rodriguez\", \"value\": \"2690\"}, {\"label\": \"Sophia Lopez\", \"value\": \"2691\"}, {\"label\": \"Benjamin Brown\", \"value\": \"2692\"}]"
         },
         {
           "id": 70,
@@ -12813,7 +12908,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Elijah Davis\", \"value\": \"2700\"}, {\"label\": \"Noah Lopez\", \"value\": \"2701\"}, {\"label\": \"Ethan Anderson\", \"value\": \"2702\"}, {\"label\": \"Mason Jones\", \"value\": \"2703\"}, {\"label\": \"Isabella Martinez\", \"value\": \"2704\"}]"
         },
         {
           "id": 71,
@@ -12834,7 +12930,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Charlotte Rodriguez\", \"value\": \"2710\"}, {\"label\": \"Benjamin Davis\", \"value\": \"2711\"}, {\"label\": \"Mia Williams\", \"value\": \"2712\"}, {\"label\": \"James Garcia\", \"value\": \"2713\"}]"
         },
         {
           "id": 72,
@@ -12855,7 +12952,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"James Jones\", \"value\": \"2720\"}, {\"label\": \"Ava Miller\", \"value\": \"2721\"}, {\"label\": \"Mia Williams\", \"value\": \"2722\"}, {\"label\": \"Elijah Smith\", \"value\": \"2723\"}]"
         },
         {
           "id": 73,
@@ -12876,7 +12974,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ava Rodriguez\", \"value\": \"2730\"}, {\"label\": \"Benjamin Williams\", \"value\": \"2731\"}, {\"label\": \"Isabella Johnson\", \"value\": \"2732\"}]"
         },
         {
           "id": 74,
@@ -12897,7 +12996,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Noah Anderson\", \"value\": \"2740\"}, {\"label\": \"Charlotte Williams\", \"value\": \"2741\"}, {\"label\": \"James Rodriguez\", \"value\": \"2742\"}, {\"label\": \"Harper Garcia\", \"value\": \"2743\"}, {\"label\": \"Lucas Wilson\", \"value\": \"2744\"}]"
         },
         {
           "id": 75,
@@ -12918,7 +13018,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Charlotte Lopez\", \"value\": \"2750\"}, {\"label\": \"Ethan Williams\", \"value\": \"2751\"}, {\"label\": \"Emma Davis\", \"value\": \"2752\"}, {\"label\": \"Noah Martinez\", \"value\": \"2753\"}]"
         },
         {
           "id": 76,
@@ -12939,7 +13040,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"John Williams\", \"value\": \"2760\"}, {\"label\": \"Mason Johnson\", \"value\": \"2761\"}, {\"label\": \"Charlotte Lopez\", \"value\": \"2762\"}]"
         },
         {
           "id": 77,
@@ -12960,7 +13062,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Isabella Rodriguez\", \"value\": \"2770\"}, {\"label\": \"Mason Gonzalez\", \"value\": \"2771\"}, {\"label\": \"John Rodriguez\", \"value\": \"2772\"}, {\"label\": \"Amelia Wilson\", \"value\": \"2773\"}, {\"label\": \"Liam Davis\", \"value\": \"2774\"}]"
         },
         {
           "id": 78,
@@ -12981,7 +13084,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ethan Anderson\", \"value\": \"2780\"}, {\"label\": \"Elijah Garcia\", \"value\": \"2781\"}, {\"label\": \"Mia Martinez\", \"value\": \"2782\"}]"
         },
         {
           "id": 79,
@@ -13002,7 +13106,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Elijah Williams\", \"value\": \"2790\"}, {\"label\": \"Olivia Gonzalez\", \"value\": \"2791\"}, {\"label\": \"Ava Miller\", \"value\": \"2792\"}, {\"label\": \"Charlotte Garcia\", \"value\": \"2793\"}, {\"label\": \"Ethan Martinez\", \"value\": \"2794\"}]"
         },
         {
           "id": 80,
@@ -13023,7 +13128,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Smith\", \"value\": \"2800\"}, {\"label\": \"Ethan Rodriguez\", \"value\": \"2801\"}, {\"label\": \"John Lopez\", \"value\": \"2802\"}]"
         },
         {
           "id": 81,
@@ -13044,7 +13150,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Lucas Johnson\", \"value\": \"2810\"}, {\"label\": \"Olivia Brown\", \"value\": \"2811\"}, {\"label\": \"Mia Davis\", \"value\": \"2812\"}, {\"label\": \"Ava Wilson\", \"value\": \"2813\"}]"
         },
         {
           "id": 82,
@@ -13065,7 +13172,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"James Hernandez\", \"value\": \"2820\"}, {\"label\": \"Charlotte Hernandez\", \"value\": \"2821\"}, {\"label\": \"Ava Jones\", \"value\": \"2822\"}, {\"label\": \"Mason Garcia\", \"value\": \"2823\"}, {\"label\": \"Sophia Johnson\", \"value\": \"2824\"}]"
         },
         {
           "id": 83,
@@ -13086,7 +13194,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Emma Jones\", \"value\": \"2830\"}, {\"label\": \"Amelia Hernandez\", \"value\": \"2831\"}, {\"label\": \"Emma Hernandez\", \"value\": \"2832\"}]"
         },
         {
           "id": 84,
@@ -13107,7 +13216,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Brown\", \"value\": \"2840\"}, {\"label\": \"Charlotte Johnson\", \"value\": \"2841\"}, {\"label\": \"Ethan Gonzalez\", \"value\": \"2842\"}]"
         },
         {
           "id": 85,
@@ -13128,7 +13238,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Benjamin Miller\", \"value\": \"2850\"}, {\"label\": \"Noah Davis\", \"value\": \"2851\"}, {\"label\": \"Benjamin Brown\", \"value\": \"2852\"}, {\"label\": \"Mia Gonzalez\", \"value\": \"2853\"}]"
         },
         {
           "id": 86,
@@ -13149,7 +13260,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ethan Jones\", \"value\": \"2860\"}, {\"label\": \"James Davis\", \"value\": \"2861\"}, {\"label\": \"James Lopez\", \"value\": \"2862\"}, {\"label\": \"Ava Johnson\", \"value\": \"2863\"}]"
         },
         {
           "id": 87,
@@ -13170,7 +13282,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Ethan Smith\", \"value\": \"2870\"}, {\"label\": \"Harper Miller\", \"value\": \"2871\"}, {\"label\": \"Benjamin Smith\", \"value\": \"2872\"}, {\"label\": \"Michael Garcia\", \"value\": \"2873\"}]"
         },
         {
           "id": 88,
@@ -13191,7 +13304,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mia Miller\", \"value\": \"2880\"}, {\"label\": \"Liam Anderson\", \"value\": \"2881\"}, {\"label\": \"Isabella Garcia\", \"value\": \"2882\"}, {\"label\": \"Charlotte Davis\", \"value\": \"2883\"}, {\"label\": \"Mia Anderson\", \"value\": \"2884\"}]"
         },
         {
           "id": 89,
@@ -13212,7 +13326,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Harper Miller\", \"value\": \"2890\"}, {\"label\": \"Isabella Davis\", \"value\": \"2891\"}, {\"label\": \"Benjamin Rodriguez\", \"value\": \"2892\"}, {\"label\": \"Olivia Martinez\", \"value\": \"2893\"}, {\"label\": \"Evelyn Williams\", \"value\": \"2894\"}]"
         },
         {
           "id": 90,
@@ -13233,7 +13348,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"James Lopez\", \"value\": \"2900\"}, {\"label\": \"Ava Wilson\", \"value\": \"2901\"}, {\"label\": \"James Rodriguez\", \"value\": \"2902\"}, {\"label\": \"Amelia Martinez\", \"value\": \"2903\"}]"
         },
         {
           "id": 91,
@@ -13254,7 +13370,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Elijah Davis\", \"value\": \"2910\"}, {\"label\": \"Olivia Davis\", \"value\": \"2911\"}, {\"label\": \"John Lopez\", \"value\": \"2912\"}, {\"label\": \"Benjamin Johnson\", \"value\": \"2913\"}]"
         },
         {
           "id": 92,
@@ -13275,7 +13392,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Evelyn Smith\", \"value\": \"2920\"}, {\"label\": \"Evelyn Wilson\", \"value\": \"2921\"}, {\"label\": \"Amelia Gonzalez\", \"value\": \"2922\"}, {\"label\": \"Liam Wilson\", \"value\": \"2923\"}]"
         },
         {
           "id": 93,
@@ -13296,7 +13414,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Emma Lopez\", \"value\": \"2930\"}, {\"label\": \"Lucas Wilson\", \"value\": \"2931\"}, {\"label\": \"Harper Jones\", \"value\": \"2932\"}]"
         },
         {
           "id": 94,
@@ -13317,7 +13436,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Emma Smith\", \"value\": \"2940\"}, {\"label\": \"Mason Martinez\", \"value\": \"2941\"}, {\"label\": \"John Hernandez\", \"value\": \"2942\"}, {\"label\": \"Sophia Garcia\", \"value\": \"2943\"}]"
         },
         {
           "id": 95,
@@ -13338,7 +13458,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Liam Anderson\", \"value\": \"2950\"}, {\"label\": \"Elijah Wilson\", \"value\": \"2951\"}, {\"label\": \"Benjamin Rodriguez\", \"value\": \"2952\"}, {\"label\": \"Benjamin Rodriguez\", \"value\": \"2953\"}, {\"label\": \"Ava Johnson\", \"value\": \"2954\"}]"
         },
         {
           "id": 96,
@@ -13359,7 +13480,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"James Brown\", \"value\": \"2960\"}, {\"label\": \"Mason Williams\", \"value\": \"2961\"}, {\"label\": \"Harper Brown\", \"value\": \"2962\"}, {\"label\": \"Charlotte Lopez\", \"value\": \"2963\"}, {\"label\": \"Benjamin Johnson\", \"value\": \"2964\"}]"
         },
         {
           "id": 97,
@@ -13380,7 +13502,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Amelia Martinez\", \"value\": \"2970\"}, {\"label\": \"Liam Rodriguez\", \"value\": \"2971\"}, {\"label\": \"Sophia Lopez\", \"value\": \"2972\"}, {\"label\": \"Olivia Gonzalez\", \"value\": \"2973\"}]"
         },
         {
           "id": 98,
@@ -13401,7 +13524,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Mia Martinez\", \"value\": \"2980\"}, {\"label\": \"Benjamin Anderson\", \"value\": \"2981\"}, {\"label\": \"Noah Hernandez\", \"value\": \"2982\"}]"
         },
         {
           "id": 99,
@@ -13422,7 +13546,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Noah Davis\", \"value\": \"2990\"}, {\"label\": \"Emma Jones\", \"value\": \"2991\"}, {\"label\": \"John Davis\", \"value\": \"2992\"}, {\"label\": \"John Miller\", \"value\": \"2993\"}]"
         },
         {
           "id": 100,
@@ -13443,7 +13568,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Emma Johnson\", \"value\": \"3000\"}, {\"label\": \"James Anderson\", \"value\": \"3001\"}, {\"label\": \"John Smith\", \"value\": \"3002\"}]"
         },
         {
           "id": 101,
@@ -13464,7 +13590,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"James Martinez\", \"value\": \"3010\"}, {\"label\": \"Lucas Wilson\", \"value\": \"3011\"}, {\"label\": \"John Miller\", \"value\": \"3012\"}, {\"label\": \"James Anderson\", \"value\": \"3013\"}, {\"label\": \"James Gonzalez\", \"value\": \"3014\"}]"
         },
         {
           "id": 102,
@@ -13485,7 +13612,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Olivia Gonzalez\", \"value\": \"3020\"}, {\"label\": \"Ethan Williams\", \"value\": \"3021\"}, {\"label\": \"Isabella Jones\", \"value\": \"3022\"}, {\"label\": \"Isabella Garcia\", \"value\": \"3023\"}]"
         },
         {
           "id": 103,
@@ -13506,7 +13634,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Benjamin Williams\", \"value\": \"3030\"}, {\"label\": \"Mason Miller\", \"value\": \"3031\"}, {\"label\": \"Amelia Hernandez\", \"value\": \"3032\"}, {\"label\": \"James Jones\", \"value\": \"3033\"}, {\"label\": \"Isabella Williams\", \"value\": \"3034\"}]"
         },
         {
           "id": 104,
@@ -13527,7 +13656,8 @@
             "status": "false",
             "disabled": false,
             "tooltip": "InActive"
-          }
+          },
+          "NewUsers": "[{\"label\": \"Sophia Williams\", \"value\": \"3040\"}, {\"label\": \"Michael Lopez\", \"value\": \"3041\"}, {\"label\": \"Evelyn Miller\", \"value\": \"3042\"}, {\"label\": \"Emma Brown\", \"value\": \"3043\"}]"
         }
       ],
       "totalRecords": 104,
@@ -14200,7 +14330,7 @@
     "statusCode": 1000,
     "message": "Fetched successfully",
     "data": {
-   "datas": [
+      "datas": [
         {
           "id": 1,
           "CustomerID": "CUS-001",
